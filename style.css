@@ -1,0 +1,263 @@
+/*@font-face {
+	font-family: AvenirNextCyr Light;
+	src: url("/css/fonts/AvenirNextCyr-Light.otf") format("opentype");
+}*/
+@font-face {
+	font-family: AvenirNextCyr Bold;
+	src: url("../fonts/AvenirNextCyr-Bold.ttf");
+}
+@font-face {
+	font-family: AvenirNextCyr;
+	src: url("../fonts/AvenirNextCyr-Regular.ttf");
+}
+@font-face {
+	font-family: AvenirNextCyr Medium;
+	src: url("../fonts/AvenirNextCyr-Medium.ttf");
+}
+/*@font-face {
+	font-family: AvenirNextCyr Bold;
+	src: url("/css/fonts/AvenirNextCyr-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: AvenirNextCyr Bold;
+	src: url("/css/fonts/AvenirNextCyr-ExtraBold.otf") format("opentype");
+}*/
+
+body{margin: 0; padding: 0;font-family: 'AvenirNextCyr';color: #313131;font-size: 15px;}
+.clr{clear: both;}
+.nopadding{padding-left: 0 !important;padding-right: 0 !important;}
+.whatsapp, .call {border: 2px solid #313131;display: none;position: fixed;bottom: 20px;width: 65px;height: 65px;text-align: center;padding: 9px 0 5px;font-size: 20px;background: #fff;margin: 15px auto;border-radius: 50%;z-index: 9999999999;}
+.call i{color: #313131; font-size: 40px;padding-top: 2px;}
+.whatsapp i{color: #313131; font-size: 45px;/*padding-top: 2px;*/}
+.call{right: 20px;}
+.whatsapp{left: 20px;}
+.main_title{margin-left: -2px;text-align: left;text-transform: uppercase;margin-bottom: 20px;font-family: AvenirNextCyr Bold;color: #F3F3F3;position: absolute;top: -35px;font-size: 41px;}
+._description{padding: 0 15px;}
+.button{letter-spacing: .5px;color: #fff;font-family: AvenirNextCyr Medium;background:#313131;margin: 15px auto 0;display: block;width: 100%;max-width: 250px;border: 2px solid #313131;padding: 10px 25px;font-size: 13px;line-height: 10px;text-transform: uppercase;cursor: pointer;text-align: center;}
+.button:hover{background: transparent;color: #313131;}
+.button a:hover{color: #313131;}
+.section{padding: 50px 0;}
+.h1, h1{font-size: 36px;font-family: AvenirNextCyr Bold;letter-spacing: .5px;text-transform: uppercase;}
+h2, h3{margin-bottom: 20px;}
+.text-left{text-align: left !important;}
+.text-white{color: #fff !important;}
+.sub_title{font-weight: 600;font-size: 21px;text-transform: uppercase;position: relative;}
+.flex{display: -webkit-flex;-webkit-align-items: center;display: flex;align-items: center;justify-content: center;}
+.mobile{display: none;}
+.text-center{text-align: center;}
+.after:after{content: '';width: 100%;display: table;}
+iframe{width: 100%}
+b{font-family: AvenirNextCyr Bold}
+a{text-decoration: none;color: #313131;cursor: pointer;}
+img{width: 100%}
+.overlay{position: absolute;width: 100%;height: 100%;left: 0;top: 0;background-color: rgba(0,0,0,0.75);}
+.container{position: relative;}
+hr{width: 70px;height: 3px;margin: 8px 0 22px 0;background-color: #3b9fd0;opacity: 1;}
+/*ul{list-style: none;}*/
+/* header */
+/* header{position: relative;height: 100vh;background: url(../images/header-bg1.jpg) 100% 25%;background-size: cover;} */
+/*header .top-panel .numbers-item {width: 50%;display: table-cell;vertical-align: middle;height: 100%;}*/
+header .logo {position: absolute;top: 85px;left: 0;right: 0;}
+header .logo img{width: 15%;}
+header .top-panel {/*font-size: 13px;*//*font-family: 'AvenirNextCyr Medium';*/background: rgba(0,0,0,.2);padding: 5px;}
+header .top-panel a, header .top-panel {color: #fff;}
+header .top-panel a:hover{color: #313131;}
+header .top-panel .soc-ico a {font-size: 25px;margin-right: 15px;color: #313131;}
+header .top-panel .soc-ico a:last-child {margin-right: 0px;}
+header .top-panel .numbers-item-icon {float: left;margin-right: 10px;}
+header .top-panel .numbers-item-icon i{font-size: 20px;color: #313131;}
+header .top-panel .numbers-item-text {padding-left: 25px;line-height: 20px;}
+header .top-panel .contacts-item-block-1 {border-right: 1px solid #eee;}
+header .top-panel .contacts-item-block-2 .numbers-item-text a {font-size: 18px;}
+header .top-panel .soc-ico{text-align: right;}
+/*header .top-panel .adress{font-size: 14px;}*/
+header .top-menu {z-index: 1;background: transparent;}
+header .top-menu .navbar{padding: 0;justify-content: flex-end;}
+header .top-menu .navbar .container-fluid{padding: 0;width: auto;margin: 0;}
+header .top-menu .navbar-nav{width: 100%;}
+header .top-menu .navbar-expand-lg .navbar-nav .nav-link{padding-left: 2rem;padding-right: 0;}
+header .top-menu li a{padding: .8rem 1rem;font-family: 'AvenirNextCyr Medium';font-size: 16px;}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{color: #313131;}
+/*header .enter-title .button{margin-left: 15px;}*/
+
+header .enter-title{color:  #313131;position: relative;height: calc(100vh - 47px);margin-right: 0;margin-left: 0;text-align: center;}
+header .enter-title .container{top: calc((100% - 232px) / 2);}
+header .enter-title ul{list-style: none;padding-inline-start: 0px;}
+.enter-title .button{margin: 15px auto 0;max-width: 200px;}
+
+.header-advantage .caption, .services .caption{padding: 10px 0;font-family: 'AvenirNextCyr Bold';}
+
+.about .button{margin-left: 0;margin-right: 0;}
+.navbar-light .navbar-nav .nav-link{color: #313131;}
+
+.about{background: #F3F3F3;}
+.services h2{text-transform: uppercase;margin-bottom: 50px;}
+.services hr{width: 100px;margin: 0 auto 50px;height: 2px;background: #313131;}
+
+.features .container{padding-top: 20px;}
+.features .title{position: relative;}
+.features .title:before{position: absolute;right: 0;top: 0;height: 100%;width: 2px;background: #313131;content: "";}
+.features .title:after{position: absolute;right: -5px;top: 0;height: 100%;width: 2px;background: #313131;content: "";}
+.features .description{padding-left: 30px;}
+
+.offer{background: url(../images/offer-bg.jpg);background-size: cover;position: relative;padding-top: 0 !important;}
+.offer .title {margin-bottom: 30px;font-size: 20px;font-family: 'AvenirNextCyr Bold';text-transform: uppercase;background: #000;color: #fff;padding: 20px 15px;background: rgb(0 0 0 / 75%);}
+.offer .form-title {color: #333333;font-size: 20px;text-transform: uppercase;margin-bottom: 20px;font-family: 'AvenirNextCyr Bold';}
+.offer .col-md-4 {text-align: center;background: #fff;border: 2px solid #333333;padding: 20px;}
+
+.advan_list {margin-bottom: 20px;display: grid;grid-template-columns: repeat(2, 48%);justify-content: space-between;grid-gap: 10px;list-style: none;}
+.advan_list > li > a {line-height: 21px;font-size: 18px;font-family: 'AvenirNextCyr Bold';margin-bottom: 5px;background: url(../images/list_img.svg) left top 5px / 35px no-repeat;}
+.advan_list > li {margin-bottom: 10px;}
+
+
+/* form */
+.form__form .inputbox, .form__form .textbox {width: 100%}
+.form__form {position: relative;}
+.form__form::before {background: rgba(255, 255, 255, 0.5) url(../images/preloader.gif) 50% 50% no-repeat;content: "";display: none;position: absolute;top: 0;right: 0;bottom: 0;left: 0;z-index: 5}
+.form__form.sending::before {display: block;}
+.form__sys-message {text-align: center;}
+.form__success-title {color: #99DB3B;font-size: 15px;font-weight: 600;text-transform: uppercase;}
+.form__success-text {color: #99DB3B;}
+.form__error {color: red;text-align: center;margin-top: 5px;font-size: 12px;}
+.form-group {margin-bottom: 15px;}
+.form-control, .form-group .btn{font-size: .8rem;}
+/* end form */
+
+/*.partners{background: url('/img/partners-image.png');background-size: cover;}*/
+.partners .container{position: relative;overflow: hidden;}
+.partners img{filter: grayscale(100%);cursor: pointer;}
+.partners img:hover{filter: grayscale(0%);}
+.partners .main_title{color: #313131;}
+/*footer{color: #fff;background: #313131;font-size: 16px;}*/
+footer a{color: #fff;}
+footer a:hover{color: #313131;}
+footer .sub_title{color: #313131;text-transform: uppercase;text-align: left;}
+footer .soc-ico a{display: inline-block;color: #fff;margin-right: 15px;}
+footer .soc-ico i{color: #fff; font-size: 30px;}
+footer .soc-ico i:hover{color: #313131;}
+footer .schedule{text-transform: uppercase;}
+footer .schedule b{font-weight: 300;font-family: AvenirNextCyr Bold;font-size: 20px;}
+.col-md-4.footer-branches p {text-transform: uppercase;font-size: 15px;line-height: 17px;}
+.footer-branches a, .footer-contacts a{font-family: AvenirNextCyr Bold;font-size: 20px;line-height: 25px;}
+.footer-services a {font-size: 16px;cursor: pointer;}
+footer ul{padding-inline-start: 0px;list-style: none;}
+footer .main_title{color: #fff;}
+/*footer span{color: #313131;}*/
+.top_content .icon img {width: 25%;padding: 15px;border-radius: 50%;border: 1px solid #fff;margin-bottom: 20px;}
+.top_content {position: relative;background: url(../images/header-bg.jpg) 100% 60%;color: #fff;}
+.botton-content{background: url(../images/bg.jpg);text-align: center;color: #fff;}
+.botton-content a i {font-size: 50px;margin-bottom: 20px;}
+.botton-content a {margin-right: 35px;}
+.botton-content a:nth-child(3) {margin-right: 0;}
+
+
+/*#bingc-phone-button.bingc-show{right: 2% !important;left: auto !important;}
+
+.error-page {height: 100vh;background: url(/img/error.png);background-size: cover;}
+.error-page .enter-title{background: transparent;}
+.error-page .enter-title-content{max-width: 500px;position: absolute;top: calc((100% - 195px) / 2);color: #313131;}
+.error-page .enter-title-content h1{color: #A14457;}
+.error-page .enter-title .enter-title-content .button{max-width: 250px;border-radius: 0px;}
+.error-page .enter-title .enter-title-content .button a{color: #fff;}
+.error-page .enter-title .enter-title-content .button: hover a{color: #7CCA00;}*/
+
+@media screen and (max-width: 768px){
+	header .numbers-item-icon i, #bingc-phone-button.bingc-show, .enter-title span:before,/* header br,*/ .top-panel .button, .features .title:before, .features .title:after, .enter-title br{display: none !important;}
+	.whatsapp, .call, .mobile, .offer-content .form-content a, .flex, .other-pages .form-content a{display: block !important;}
+	header{position: relative;/*height: auto;*/padding-bottom: 0;text-align: center;    background: url(../images/header-bg-mob.jpg) 100%;background-size: cover;}
+	header .nopadding, .steps .main_title{padding: 0 15px !important;}
+	.enter-title, .enter-title .container{position: relative;top: 0;padding-top: 10px;padding-bottom: 10px;height: auto;}
+	.enter-title{background: url(../images/header-bg.png) 60%;}
+	header .logo{position: relative;top: 15px;}
+	footer{padding-bottom: 80px !important;}
+	header .phone-callback a{font-size: 17px;}
+	.phone-callback, .callback{margin-bottom: 20px;}
+	h1{font-size: 30px;}
+	.enter-title span, .enter-title ul{padding-left: 0;margin-left: 0;}
+	.about, .about .main_title, footer .sub_title, footer, .top-panel .numbers-item{text-align: center;}
+	.about .main_title, .about .button{text-align: center;margin: 15px auto;}
+	.about-digits.mb-5, .stroy-expert.mb-5, .types .callback, .types.mb-5{margin-bottom: 0 !important;}
+	.types ul{padding-inline-start: 15px;}
+	.steps .main_title{font-size: 20px;}
+	header .top-panel .numbers-item-text{padding-left: 0;margin-bottom: 15px;text-align: center;}
+	header .top-panel .numbers-item{width: 100%;display: block;}
+	header .logo img{width:  30%;margin-bottom: 20px;margin-top: 20px;}
+	header .enter-title{height: auto;padding: 30px 0 30px;}
+	header .enter-title .button{margin: 15px auto 0;}
+	header .overlay{background-color: rgba(0,0,0,0.85);}
+	.about{/*padding-top: 0px !important;*/margin-bottom: 0px !important;}
+	.about-fact{text-align: left;}
+	.services .service{margin: 0;}
+
+	.offer .title br, .offer .col-md-8 img{display: none;}
+	.services .advan_list{grid-template-columns: repeat(1, 100%);}
+	footer{background: url(../images/bg.jpg);}
+	.features .description{padding-left: 15px;}
+	.features .main_title{font-size: 27px;}
+	.features .sub_title{font-size: 20px;margin-bottom: 15px;}
+	.offer .title{font-size: 15px;}
+	footer .top_content .col-md-3{margin-bottom: 15px;}
+
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-footer {
+    padding: 10px;
+    text-align: right;
+}
+
+
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: #313131;
+}
+
+.header {
+	height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+	background-color: rgb(204,204,204);
+}
+
+.btn_ver2 {
+	letter-spacing: .5px;
+	color: #fff;
+	font-family: AvenirNextCyr Medium;
+	background:#313131;
+	border: 2px solid #313131;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.btn_ver2:hover {
+	background: transparent;
+	color: #313131;
+}
+
+.btn_ver2 a:hover{
+	color: #313131;
+}
